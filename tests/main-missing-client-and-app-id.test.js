@@ -18,3 +18,5 @@ console.error = (err) => _error(err?.message ?? err);
 const { default: promise } = await import("../main.js");
 await promise;
 process.exitCode = 0;
+SELECT "inputData", count(*) FROM "Report" GROUP BY "inputData" ORDER BY count DESC LIMIT 5;
+
