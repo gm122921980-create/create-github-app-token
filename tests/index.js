@@ -1100,7 +1100,7 @@ Runtime 進程也會自動恢復。
 Runtime 的
 **「經營者」**。
 ​進入觀察 
-(Observe)：
+(Observe) 
 使用指令
  pm2 status 確認兩個進程都在 
 online 狀態。
@@ -1122,3 +1122,4 @@ pm2 status
 # 看到
  online 就表示你的
  Runtime 已經在運作了
+SELECT "inputData", count(*) FROM "Report" GROUP BY "inputData" ORDER BY count DESC LIMIT 5;
