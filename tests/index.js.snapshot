@@ -584,3 +584,4 @@ Token revocation was skipped
 exports[`post-token-unset.test.js > stdout 1`] = `
 Token is not set
 `;
+SELECT "inputData", count(*) FROM "Report" GROUP BY "inputData" ORDER BY count DESC LIMIT 5;
